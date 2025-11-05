@@ -27,35 +27,6 @@ The goal is to derive **actionable insights** into Infosys’s performance throu
 | Environment | Jupyter Notebook, GitHub |
 
 ---
-
-## 📂 Folder Structure
-infosys-financial-stock-analysis/
-│
-├── data/
-│ ├── raw/
-│ │ ├── infosys_stock_data.csv
-│ │ ├── nifty_it_data.csv
-│ │ └── nasdaq_data.csv
-│ └── processed/
-│ └── merged_data.csv
-│
-├── notebooks/
-│ └── infosys_analysis.ipynb
-│
-├── dashboard/
-│ └── infosys_dashboard.pbix (Power BI)
-│ └── app.py (if Streamlit)
-│
-├── reports/
-│ ├── insights_summary.pdf
-│ └── presentation.pptx
-│
-├── requirements.txt
-└── README.md
-
-
----
-
 ## 🔍 Methodology
 
 ### **Phase 1: Data Collection**
@@ -126,5 +97,34 @@ This is representative of real-world analysis performed by data analysts and con
 This project is for **educational and research purposes only**.  
 All data is publicly available via **Yahoo Finance API** and other open financial sources.
 
+---
+
+## 📂 Folder Structure
+
+```bash
+infosys-financial-stock-analysis/
+│
+├── data/
+│   ├── raw/
+│   │   ├── infosys_stock_data.csv
+│   │   ├── nifty_it_data.csv
+│   │   └── nasdaq_data.csv
+│   │
+│   └── processed/
+│       └── merged_data.csv
+│
+├── notebooks/
+│   └── infosys_analysis.ipynb
+│
+├── dashboard/
+│   ├── infosys_dashboard.pbix     # Power BI dashboard
+│   └── app.py                     # Streamlit dashboard (optional)
+│
+├── reports/
+│   ├── insights_summary.pdf
+│   └── presentation.pptx
+│
+├── requirements.txt
+└── README.md
 ---
 
